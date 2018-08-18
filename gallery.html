@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href=favicon.ico>
+
+    <title>Photo Gallery</title>
+
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="maya.css" rel="stylesheet">
+   
+
+  </head>
+
+  <body>
+<!--TOP BANNER -->
+       <header role="banner">
+      <img id="logo-main" src="img/CUBE-logo-blue.jpg" width="150" alt="CUBE Main Logo">
+      <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+      
+<!--******************************************
+	 	  		 NAVIGATION BAR 
+	****************************************** -->       
+	
+        <div class="container-fluid" >
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+            <ul class="nav navbar-nav">
+     <!--HOME BUTTON -->       
+              <li><a href="index.html">Home</a></li>
+     <!--ABOUT US BUTTON -->         
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="about.html">Our Mission</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <li><a href="dancers.html">Our Dancers</a></li>
+                  </ul>
+              </li>
+     <!--EVENTS BUTTON -->        
+            <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+             	 <ul class="dropdown-menu"> 
+             	 	<li><a href="events.html">Auditions and Shows</a></li>
+             	 	<li><a href="outreach.html">Outreach</a></li>
+             	 </ul>
+             </li>	
+     <!--MEDIA BUTTON -->       
+              <li class = "active" class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="press.html">In the News</a></li>
+                  </ul>
+              </li>
+     <!--CONTACT US BUTTON -->         
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div> <!--/.navbar-collapse-->
+        </div>   <!--/.container-fluid-->
+      </nav>
+    </header>
+
+<!--********************************
+			  MAIN PAGE 
+	********************************-->
+ <div class="container marketing">
+    <h1>Photo Gallery</h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+    
+      </ol>
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+           <img class="first-slide" src="img/home/bigswans.jpg" alt="First slide">
+         <div class="container">
+       <!--     <div class="carousel-caption">
+              <a href="#Alice"><h1>Alice in Wonderland Fall 2016</h1></a>
+            </div> -->
+          </div>
+        </div>
+
+  
+        <div class="item">
+          <img class="second-slide" src="img/gallery/donQ/DonQ5.JPG" alt="Second slide">
+           <div class="container">
+            <div class="carousel-caption">
+              <a href="galleryDonQ.html"><h1>Don Quixote Spring 2016</h1></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/gallery/cinderella/1.jpg" alt="Third slide">
+         <div class="container">
+            <div class="carousel-caption">
+              <a href="#Cinderella"><h1>Cinderella Fall 2015</h1></a>
+            </div>
+          </div>
+          </div>
+        <div class="item">
+          <img class="fourth-slide" src="img/gallery/copp/copp2.JPG" alt="Fourth slide">
+            <div class="container">
+            <div class="carousel-caption">
+              <a href="#Coppelia"><h1>Coppelia Spring 2015</h1></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <img class="fifth-slide" src="img/gallery/nutcracker/nut9.JPG" alt="Fifth slide">
+            <div class="container">
+            <div class="carousel-caption">
+              <a href="#Nutcracker"><h1>The Nutcracker Fall 2014</h1></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <img class="sixth-slide" src="img/gallery/swan/20.jpg" alt="Sixth slide">
+            <div class="container">
+            <div class="carousel-caption">
+              <a href="#SwanLake"><h1>Swan Lake Spring 2014</h1></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <img class="seventh-slide" src="img/gallery/sleeping13/sb5.jpg" alt="Seventh slide">
+            <div class="container">
+            <div class="carousel-caption">
+              <a href="#SleepingBeauty13"><h1>Sleeping Beauty Fall 2013</h1></a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <img class="eighth-slide" src="img/gallery/photoshoots/Spring2015/8.jpg" alt="Eigth slide">
+            <div class="container">
+            <div class="carousel-caption">
+              <a href="#Photoshoots"><h1>Photoshoots</h1></a>
+               <a href = "#Fall16">|  Fall 2016  |</a> 
+                 <a href = "#Spring2016">|  Spring 2016 |</a>
+                 <a href = "#Fall15">|  Fall 2015 |</a>
+                 <a href = "#Spring15">|  Spring 2015 |</a>
+                 <a href = "#Fall14">|  Fall 2014 |</a>
+                  <a href = "#Spring14">|  Spring 2014 |</a>
+            </div>
+          </div>
+        </div>
+      
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        
+     <!--     <div class = "gallery">
+            <div class="row" id = "Alice">
+
+              <div class="col-lg-12">
+                 <h1> Alice in Wonderland Fall 2016 Production</h1>
+              </div>
+
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/alice/Alice1.jpg">
+                    <img class="img-responsive" src="img/gallery/alice/Alice1.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/alice/Alice2.jpg">
+                    <img class="img-responsive" src="img/gallery/alice/Alice2.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/alice/Alice3.jpg">
+                    <img class="img-responsive" src="img/gallery/alice/Alice3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/alice/Alice4.jpg">
+                    <img class="img-responsive" src="img/gallery/alice/Alice4.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/alice/Alice5.jpg">
+                    <img class="img-responsive" src="img/gallery/alice/Alice5.jpg" width = "400" height = "300">
+                </a>
+            </div>
+              
+          </div>
+        </div>  -->
+
+        <div class = "gallery">
+
+          <div class="row" id = "DonQ">
+
+              <div class="col-lg-12">
+                 <h1> Don Quixote Spring 2016 Production</h1>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ1.png">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ1.png" width = "400" height = "300">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ2.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ2.png" width = "400" height = "300">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ3.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ3.png" width = "400" height = "300">
+                </a>
+            </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ4.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ4.png" width = "112" height = "175">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ5.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ5.png" width = "400" height = "300">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ6.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ6.png" width = "112" height = "175">
+                </a>
+            </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ7.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ7.png" width = "400" height = "300">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ8.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ8.png" width = "112" height = "175">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ9.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ9.png" width = "112" height = "175">
+                </a>
+            </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/donQ/DonQ10.JPG">
+                    <img class="img-responsive" src="img/gallery/donQ/DonQ10.png" width = "112" height = "175">
+                </a>
+            </div>
+            <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+             
+        </div>
+
+         <div class = "gallery">
+            <div class="row" id = "Cinderella">
+
+              <div class="col-lg-12">
+                 <h1> Cinderella Fall 2015 Production</h1>
+              </div>
+
+               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/cinderella/1.jpg">
+                    <img class="img-responsive" src="img/gallery/cinderella/1.jpg" width = "150" height = "200">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <a class="thumbnail" href="img/gallery/cinderella/2.jpg">
+                  <img class="img-responsive" src="img/gallery/cinderella/2.jpg" width = "150" height = "200">
+               </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/cinderella/3.jpg">
+                    <img class="img-responsive" src="img/gallery/cinderella/3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+
+          </div>
+        </div>
+
+         <div class = "gallery">
+            <div class="row" id = "Coppelia">
+
+              <div class="col-lg-12">
+                 <h1> Coppelia Spring 2015 Production</h1>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp1.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp1.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp2.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp2.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp3.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp3.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp4.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp4.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp5.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp5.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp6.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp6.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp7.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp7.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp8.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp8.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp9.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp9.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp10.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp10.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp11.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp11.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp12.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp12.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp13.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp13.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp14.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp14.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp15.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp15.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp16.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp16.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp17.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp17.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp18.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp18.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp19.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp19.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp20.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp20.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp21.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp21.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp22.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp22.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/copp/copp23.JPG">
+                    <img class="img-responsive" src="img/gallery/copp/copp23.JPG" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+              
+          </div>
+        </div>
+
+         <div class = "gallery">
+            <div class="row" id = "Nutcracker">
+
+              <div class="col-lg-12">
+                 <h1> The Nutcracker Fall 2014 Production</h1>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut1.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut1.JPG" width = "400" height = "300">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut2.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut2.JPG" width = "400" height = "300">
+                </a>
+            </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut3.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut3.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut4.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut4.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut5.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut5.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut6.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut6.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut7.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut7.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut8.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut8.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut9.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut9.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut10.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut10.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut11.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut11.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut12.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut12.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut13.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut13.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut14.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut14.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut15.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut15.JPG" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/nutcracker/nut16.JPG">
+                    <img class="img-responsive" src="img/gallery/nutcracker/nut16.JPG" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+               
+          </div>
+        </div>
+
+         <div class = "gallery">
+            <div class="row" id = "SwanLake">
+
+              <div class="col-lg-12">
+                 <h1> Swan Lake Spring 2014 Production</h1>
+              </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/1.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/1.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/2.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/2.jpg" width = "150" height = "200">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/3.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/4.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/4.jpg" width = "150" height = "200">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/5.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/5.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/6.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/6.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/7.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/7.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/8.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/8.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/9.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/9.jpg" width = "400" height = "300">
+                </a>
+            </div>
+          
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/11.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/11.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/12.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/12.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/13.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/13.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/14.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/14.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/15.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/15.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/16.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/16.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/17.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/17.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/18.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/18.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/19.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/19.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/20.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/20.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/21.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/21.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/swan/22.jpg">
+                    <img class="img-responsive" src="img/gallery/swan/22.jpg" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+              
+          </div>
+        </div>
+
+         <div class = "gallery">
+            <div class="row" id = "SleepingBeauty13">
+
+              <div class="col-lg-12">
+                 <h1> Sleeping Beauty Fall 2013 Production</h1>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/sb1.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/sb1.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/sb2.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/sb2.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/sb3.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/sb3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/sb4.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/sb4.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/sb5.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/sb5.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/sb6.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/sb6.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/7.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/7.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/8.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/8.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/9.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/9.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/10.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/10.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/11.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/11.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/12.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/12.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/13.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/13.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/sleeping13/14.jpg">
+                    <img class="img-responsive" src="img/gallery/sleeping13/14.jpg" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+              
+          </div>
+        </div>
+
+         <div class = "gallery">
+            <div class="row" id = "Photoshoots">
+
+              <div class="col-lg-12">
+                 <h1> Photoshoots</h1>
+                 <a href = "#Fall16">|  Fall 2016  |</a> 
+                 <a href = "#Spring2016">|  Spring 2016 |</a>
+                 <a href = "#Fall15">|  Fall 2015 |</a>
+                 <a href = "#Spring15">|  Spring 2015 |</a>
+                 <a href = "#Fall14">|  Fall 2014 |</a>
+                  <a href = "#Spring14">|  Spring 2014 |</a>
+
+              </div>
+
+              <div class="col-lg-12" id = "Fall16">
+                 <h3> Fall 2016</h3>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/1.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/1.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/2.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/2.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/3.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/3.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/4.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/4.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/5.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/5.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/6.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/6.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/7.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/7.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/8.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/8.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/9.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/9.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/10.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/10.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/11.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/11.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/12.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/12.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/13.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/13.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/14.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/14.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/15.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/15.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/16.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/16.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/17.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/17.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/18.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/18.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/19.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/19.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/20.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/20.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/21.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/21.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/22.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/22.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/23.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/23.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/24.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/24.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/25.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/25.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/26.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/26.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/27.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/27.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/28.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/28.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/29.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/29.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/30.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/30.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/31.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/31.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/32.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/32.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/33.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/33.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/34.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/34.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/35.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/35.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/36.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/36.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/37.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/37.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/38.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/38.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/39.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/39.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/40.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/40.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/41.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/41.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/42.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/42.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/43.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/43.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/44.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/44.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/45.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/45.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/46.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/46.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/47.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/47.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/48.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/48.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/49.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/49.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/50.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/50.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/51.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/51.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/52.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/52.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/53.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/53.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/54.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/54.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/55.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/55.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/56.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/56.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/57.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/57.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/58.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/58.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/59.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/59.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/60.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/60.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/61.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/61.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/62.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/62.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/63.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/63.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/64.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/64.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/65.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/65.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/66.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/66.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/67.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/67.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/68.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/68.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/69.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/69.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/70.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/70.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/71.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/71.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/72.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/72.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/73.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/73.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/74.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/74.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/75.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/75.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/76.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/76.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/77.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/77.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/78.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/78.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/79.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/79.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/80.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/80.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/81.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/81.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/82.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/82.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/83.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/83.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/84.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/84.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/85.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/85.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/86.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/86.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/87.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/87.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/88.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/88.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/89.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/89.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/90.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/90.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/91.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/91.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2016/92.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2016/92.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+               <div class="col-lg-12">
+                <a href = "#Photoshoots">Back to Photoshoots Top</a>
+              </div>
+
+              <div class="col-lg-12" id = "Spring2016">
+                 <h3> Spring 2016</h3>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/1.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/1.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/2.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/2.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/3.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/3.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/4.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/4.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/5.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/5.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/6.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/6.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/7.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/7.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/8.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/8.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/9.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/9.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/10.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/10.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/11.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/11.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/12.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/12.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/13.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/13.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/14.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/14.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/15.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/15.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/16.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/16.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/17.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/17.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/18.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/18.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/19.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/19.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/20.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/20.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/21.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/21.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/22.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/22.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/23.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/23.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/24.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/24.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/25.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/25.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/26.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/26.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/27.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/27.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/28.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/28.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/29.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/29.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/30.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/30.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/31.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/31.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/32.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/32.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/33.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/33.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/34.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/34.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/35.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/35.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/36.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/36.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/37.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/37.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/38.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/38.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/39.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/39.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/40.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/40.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/41.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/41.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/42.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/42.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/43.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/43.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/44.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/44.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2016/45.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2016/45.jpg" width = "400" height = "300">
+                </a>
+              </div>
+         
+              <div class="col-lg-12">
+                <a href = "#Photoshoots">Back to Photoshoots Top</a>
+              </div>
+
+               <div class="col-lg-12" id = "Fall15">
+                 <h3> Fall 2015</h3>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/1.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/1.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/2.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/2.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/3.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/3.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/4.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/4.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/5.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/5.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/6.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/6.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/7.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/7.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/8.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/8.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/9.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/9.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/10.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/10.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/11.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/11.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/12.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/12.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/13.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/13.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/14.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/14.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/15.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/15.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/16.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/16.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/17.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/17.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/18.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/18.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/19.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/19.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/20.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/20.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/21.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/21.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/22.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/22.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/23.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/23.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/24.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/24.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/25.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/25.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/26.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/26.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/27.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/27.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/28.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/28.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/29.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/29.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/30.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/30.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/31.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/31.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/32.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/32.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/33.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/33.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/34.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/34.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/35.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/35.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/36.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/36.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/37.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/37.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/38.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/38.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/39.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/39.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/40.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/40.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/41.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/41.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/42.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/42.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/43.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/43.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/44.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/44.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/45.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/45.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/46.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/46.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/47.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/47.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/48.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/48.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/49.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/49.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/50.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/50.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/51.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/51.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/52.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/52.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/53.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/53.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/54.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/54.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/55.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/55.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2015/56.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2015/56.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+               <div class="col-lg-12">
+                <a href = "#Photoshoots">Back to Photoshoots Top</a>
+              </div>
+
+              <div class="col-lg-12" id = "Spring15">
+                 <h3> Spring 2015</h3>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/1.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/1.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/2.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/2.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/3.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/3.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/4.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/4.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/5.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/5.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/6.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/6.jpg" width = "400" height = "300">
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/7.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/7.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/8.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/8.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/9.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/9.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/10.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/10.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/11.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/11.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/12.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/12.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/13.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/13.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/14.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/14.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/15.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/15.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/16.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/16.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/17.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/17.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/18.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/18.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/19.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/19.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/20.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/20.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/21.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/21.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/22.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/22.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/23.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/23.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/24.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/24.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/25.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/25.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/26.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/26.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/27.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/27.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/28.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/28.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/29.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/29.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/30.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/30.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/31.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/31.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/32.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/32.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/33.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/33.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/34.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/34.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/35.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/35.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/36.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/36.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/37.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/37.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/38.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/38.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/39.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/39.jpg" width = "400" height = "300">
+                </a>
+              </div>
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2015/40.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2015/40.jpg" width = "400" height = "300">
+                </a>
+              </div>
+               <div class="col-lg-12">
+                <a href = "#Photoshoots">Back to Photoshoots Top</a>
+              </div>
+
+
+            <div class="col-lg-12" id = "Fall14">
+               <h3> Fall 2014</h3>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/1.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/1.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/2.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/2.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/3.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/4.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/4.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/5.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/5.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/6.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/6.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/7.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/7.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/8.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/8.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/9.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/9.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/10.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/10.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/11.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/11.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/12.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/12.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/13.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/13.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/14.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/14.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/15.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/15.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/16.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/16.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/17.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/17.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/18.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/18.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/19.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/19.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/20.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/20.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/21.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/21.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/22.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/22.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/23.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/23.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Fall2014/24.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Fall2014/24.jpg" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-12">
+                <a href = "#Photoshoots">Back to Photoshoots Top</a>
+              </div>
+
+             <div class="col-lg-12" id = "Spring14">
+                 <h3> Spring 2014</h3>
+              </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/1.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/1.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/2.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/3.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/3.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/4.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/4.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/5.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/5.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/6.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/6.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/7.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/7.jpg" width = "400" height = "300">
+                </a>
+            </div>
+           
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/8.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/8.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/9.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/9.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/10.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/10.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/11.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/11.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/12.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/12.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/13.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/13.jpg" width = "400" height = "300">
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="img/gallery/photoshoots/Spring2014/14.jpg">
+                    <img class="img-responsive" src="img/gallery/photoshoots/Spring2014/14.jpg" width = "400" height = "300">
+                </a>
+            </div>
+            </div>
+        
+            <div class="col-lg-12">
+                <a href = "#Photoshoots">Back to Photoshoots Top</a>
+              </div>
+
+              <div class="col-lg-12">
+                <a href = "#myCarousel">Back to Top</a>
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+      
+<!--
+#top {
+  float: left;
+position: fixed;
+bottom: 50px;
+width: 100%; 
+  height: 20px; 
+  background-color: white;
+}  -->
+	
+    
+   <footer id = "footer">
+        <p>&copy; 2017 Tara Anand and Maya Anand</p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
