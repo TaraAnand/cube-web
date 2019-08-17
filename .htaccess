@@ -1,0 +1,4 @@
+AuthName "For Members"
+AuthType Basic
+AuthUserFile/.htpasswd
+Require valid-user
