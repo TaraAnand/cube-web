@@ -1,4 +1,4 @@
-AuthName "For Members"
+AuthName "formembers.html"
 AuthType Basic
 AuthUserFile/.htpasswd
 Require valid-user
